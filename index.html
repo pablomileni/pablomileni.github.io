@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Léa Bignon</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<meta name="google-site-verification" content="gtNBoqNWksbcj6YoYbesw1CzDPs6bdsT47SA5KhiAJE" />
+<style>
+  
+body{
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  text-align:justify;
+}
+  
+h1 {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  color: #c8ad7f;
+}
+  
+h2 {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  margin-top: 1em;
+}
+  
+h4 {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin-bottom: 0.83em;
+}
+  
+h5 {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin-top: 0.30em;
+  margin-bottom: 0.83em;
+}
+  
+.header {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  background-color: white;
+  text-align: center;
+  font-size: 60px;
+}
+
+
+  
+#navbar {
+  overflow: hidden;
+  background-color: white;
+  display: flex; /* Make the navbar a flex container */
+  justify-content: center; /* Center the navbar items horizontally */
+  width: 100%; /* Make the navbar full-width */
+}
+
+#navbar a {
+  float: left;
+  display: flex;
+  color: #c8ad7f;
+  text-align: center;
+  padding: 5px 16px 15px;
+  text-decoration: none;
+  font-size: 26px;
+}
+
+#navbar a:hover {
+  background-color: white;
+  color: #0404aa;
+<!-- color: #000000 ; -->
+}
+
+#navbar a.active {
+  background-color: white;
+  color: #0404aa;
+<!--     color: #000000 ;-->
+}
+
+.content {
+  padding: 1 em;
+  max-width: 70%;
+  margin: auto;
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  margin: auto;  
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.split-section {
+  display: flex; /* Use flexbox to create a flex container */
+  flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+}
+
+.left-column, .right-column {
+  flex: 1; /* Each column takes up half of the container */
+  justify-content: center; /* Center the navbar items horizontally */
+}
+
+.left-column {
+  padding-right: 30px; /* Add padding between columns */ 
+}
+
+.right-column {
+  padding-left: 30px; /* Add padding between columns */
+}
+
+.hidden {
+display: none; /* Initially hide the paragraph */
+}
+  
+.hidden-paragraph {
+    font-size: 16px; /* Adjust the font size as needed */
+    color: #333; /* Optional: change the color of the paragraph text */
+ }
+
+
+.toggle-link {
+  font-size: 16px;
+  cursor: pointer;
+  color: #000000;
+}
+.toggle-link:hover {
+  font-size: 16px;
+  cursor: pointer;
+  color: #000000;
+}
+  
+img{
+  max-width: 100%; /* Ensure the image doesn't exceed the container width */
+}
+
+.responsive-image {
+        display: block;
+        width: 100%;
+        height: auto; /* Maintain aspect ratio */
+        max-width: 500px; /* Optional: maximum width */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+@media (max-width: 768px) {
+  .left-column, .right-column {
+    flex-basis: 100%; /* Each column takes up full width */
+    padding: 0; /* Remove padding between columns */
+  }
+  .content {
+  padding: 1 em;
+  max-width: 95%;
+  margin: auto;
+}
+}
+</style>
+</head>
+   
+<body>
+<div class="header">
+  <p>Léa  Bignon</p>
+</div>
+  
+<div id="navbar">
+  <a href="#">Home</a>
+  <a href="#research">Research</a>
+  <a href="bignon_cv.pdf" target="_blank">C.V.</a>
+</div>
+
+<div id="home" class="content">
+<section class="split-section">
+  <div class="left-column">
+    <!-- <img src="IMG_4996.jpeg" class="responsive-image" alt=" ">-->
+    <img src="photoJM.jpg" class="responsive-image" alt=" ">
+  </div>
+  <div class="right-column">
+    <p>I am a PhD student at the Toulouse School of Economics (TSE).</p>
+    <p>My research interests lie in industrial organization, health care and innovation.</p>
+    <p>I will join the Department of Economics at KU Leuven as an Assistant Professor in 2026, following a one-year postdoctoral position there.</p>
+    <p> Here is my <a href="bignon_cv.pdf" target="_blank" style="color: black; font-weight: 500;">CV</a>. </p>
+    <p> You can contact me at <a href="mailto:lea.bignon@tse-fr.eu" style="color: black; font-weight: 500;">lea.bignon@tse-fr.eu</a>. </p>
+    <!-- <p> You can contact me at <a href="mailto:lea.bignon@tse-fr.eu" style="color: black; font-weight: 550;">lea.bignon@tse-fr.eu</a>.<p> -->
+    
+    <h4 style="color: #c8ad7f;margin-bottom: 0.5em;"> References </h4>
+      <p style="font-weight: 500;text-align: left;"> Pierre Dubois <a href="mailto:pierre.dubois@tse-fr.eu" style="color: black; font-weight: 400;text-decoration: none;">pierre.dubois@tse-fr.eu</a> </p>
+      <p style="font-weight: 500;text-align: left;"> Matthew Backus <a href="mailto:backus@berkeley.edu" style="color: black; font-weight: 400;text-decoration: none;">backus@berkeley.edu</a></p>
+      <p style="font-weight: 500;text-align: left;"> Matthew Grennan <a href="mailto:matthewgrennan@gmail.com" style="color: black; font-weight: 400;text-decoration: none;">matthewgrennan@gmail.com</a> </p>
+      <p style="font-weight: 500;text-align: left;"> Bruno Jullien <a href="mailto:bruno.jullien@tse-fr.eu" style="color: black; font-weight: 400;text-decoration: none;">bruno.jullien@tse-fr.eu</a></p>
+    </p>
+  </div>
+</section>
+</div>
+
+<div id="research" class="content">
+  <h1> Research </h1>
+  <h2> Working papers</h2>
+  <h4 style="margin-bottom: 0.5em;text-align: left;"> <a href="papers/Bignon_JMP.pdf" target="_blank" style="color: black;">Pharmaceuticals and Digital Health: How Data-driven Insights May Reshape the Insulin Market</a> <b style="font-weight: 600;">(Job Market Paper)</b></h4>
+  <p><a href="#" class="toggle-link" data-target="abstract-2" style="text-decoration: none;">Abstract</a></p>
+  <p id="abstract-2" class="hidden-paragraph" style="display: none;"> 
+    Digital health technologies, such as Continuous Glucose Monitors (CGMs), are transforming the availability of patient-level data, potentially influencing healthcare markets more broadly. This paper examines how CGMs influence the insulin market, shedding light on the impact of digital health technologies on pharmaceutical demand, pricing, and innovation incentives. I develop and estimate a tractable model of supply and demand for insulin, embedding: (i) patient-specific learning about treatment performance through the digital device, (ii) physician-level learning about new insulin products based on patient experiences, and (iii) price bargaining by pharmaceutical companies and the regulator, both internalizing demand-side learning. Using comprehensive medical claims data from France, where expanded CGM coverage boosted technology adoption, I find that CGMs' patient-specific information steered insulin demand toward newer products, with limited information spillover to non-users. Manufacturers of drugs that benefited from higher perceived quality, thanks to the observability of these attributes, could negotiate higher drug prices. My findings indicate that the introduction of these new observable attributes into pharmaceutical demand can shift the relative profitability of drug innovation strategies, thereby shaping future pharmaceutical innovation.
+  </p>
+      
+  <h4> <a href="papers/Bignon_Iaria_Lasio_2023.pdf" target="_blank" style="color: black;"> Strategic tier design in Health insurance: The case of Medicare part D</a> [January 2023]</h4>
+  <h5> Joint with <a href="https://sites.google.com/view/alessandro-iaria-economics" target="_blank" style="color: black; font-weight: 550;">Alessandro Iaria</a> and <a href="http://www.lauralasio.com" target="_blank" style="color: black; font-weight: 550;">Laura Lasio</a>.</h5>
+  <p><a href="#" class="toggle-link" data-target="abstract-1" style="text-decoration: none;">Abstract</a></p>
+  <p id="abstract-1" class="hidden-paragraph" style="display: none;"> 
+    We study the role of tier design in Medicare Part D. In the period 2013-2017, plans expanded the number of tiers in their formularies from three/four to five and systematically shifted generics to higher tiers subject to higher cost sharing. The systematic tier upgrading caused significant increases in the out-of-pocket costs, up to 6 times for some generics. This resulted in additional average per-enrollee spending on generics of $76 in 2017, totalling $1.5 billion for the Part D population, and increased mortality by 5.4% due to reduced utilization of generics with documented mortality benefits. 
+  </p>
+  
+<h2>Work in progress</h2>
+  <h5> Biologic drugs and learning-by-doing</h5> <p>Joint with Pierre Dubois.</p>
+  <h5 style="margin-bottom: 1em;"> The consequences of monitoring drug abuse: Physicians behavior towards secured prescription pads</h5>
+<!--  <p><a href="#" class="toggle-link" data-target="abstract-2" style="text-decoration: none;">Abstract</a></p>
+  <p id="abstract-2" class="hidden-paragraph" style="display: none;"> 
+    This paper analyzes how insights from digital health data influence pharmaceutical markets. I focus on the impact of Continuous Glucose Monitors (CGMs) on insulin choice. I develop and estimate a tractable model of supply and demand for insulin embedding: (i) patient-specific learning about treatment performance through the digital device, (ii) physician-level learning about new drugs based on patient experiences and (iii) price bargaining by pharmaceutical companies and the regulator, both internalizing demand-side learning. Using French medical claims data, I find that CGMs provided patient-specific insights that steered device users toward newer insulins, with limited information spillovers to non-users. As these new criteria enter pharmaceutical demand, they alter the perceived product differentiation, and by doing so, I document how they can further affect the relative profitability of new drugs and shape future pharmaceutical innovations.
+  </p> -->
+</div>
+
+<!--
+<div id="teaching" class="content">
+  <h3>.</h3>
+  <p>.</p>
+  <p>.</p>
+  <p>.</p>
+  <p>.</p>
+  <p>.</p>
+  <p>.</p>
+  <p>.</p>
+</div>
+-->
+  
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Select all elements with the class 'toggle-link'
+    const toggleLinks = document.querySelectorAll('.toggle-link');
+    
+    // Iterate through each toggle link
+    toggleLinks.forEach(function(link) {
+      link.addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent default link behavior
+        
+        // Get the target paragraph ID from the data-target attribute
+        const targetId = link.getAttribute('data-target');
+        const targetParagraph = document.getElementById(targetId);
+        
+        // Toggle the display of the target paragraph
+        if (targetParagraph.style.display === 'none') {
+          targetParagraph.style.display = 'block';
+          link.textContent = 'Hide Abstract';
+        } else {
+          targetParagraph.style.display = 'none';
+          link.textContent = 'Abstract';
+        }
+      });
+    });
+  });
+</script>
+
+<!-- 
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+        // JavaScript to handle toggle functionality
+        const toggleLink1 = document.getElementById('toggle-link1');
+        const hiddenParagraph1 = document.getElementById('hidden-paragraph1');
+    
+        hiddenParagraph1.style.display = 'none';
+    
+        toggleLink1.addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent default link behavior
+
+            // Toggle hidden paragraph visibility
+            if (hiddenParagraph1.style.display === 'none') {
+                hiddenParagraph1.style.display = 'block';
+                toggleLink1.textContent = 'Hide Abstract';
+            } else {
+                hiddenParagraph1.style.display = 'none';
+                toggleLink1.textContent = 'Abstract';
+            }
+        });
+    });
+</script>
+    
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+        // JavaScript to handle toggle functionality
+        const toggleLink = document.getElementById('toggle-link');
+        const hiddenParagraph = document.getElementById('hidden-paragraph');
+    
+        hiddenParagraph.style.display = 'none';
+    
+        toggleLink.addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent default link behavior
+
+            // Toggle hidden paragraph visibility
+            if (hiddenParagraph.style.display === 'none') {
+                hiddenParagraph.style.display = 'block';
+                toggleLink.textContent = 'Hide Abstract';
+            } else {
+                hiddenParagraph.style.display = 'none';
+                toggleLink.textContent = 'Abstract';
+            }
+        });
+    });
+</script>
+-->
+    
+</body>
+</html>
