@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Pablo Mileni - Macroeconomist with interests in labor and finance</title>
-<meta name="description" content="Pablo Mileni is a macroeconomist with interests in labor and finance. PhD student at Toulouse School of Economics on the 2025-26 job-market.">
+<title>Pablo Mileni Munari (Pablo Mileni) - Macroeconomist with interests in labor and finance</title>
+<meta name="description" content="Pablo Mileni Munari (Pablo Mileni) is a macroeconomist with interests in labor and finance. PhD student at Toulouse School of Economics on the 2025-26 job-market.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="Pablo Mileni, Pablo Mileni Munari, macroeconomist, labor economics, finance, TSE, Toulouse School of Economics, automation, banking regulation">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <meta name="google-site-verification" content="gtNBoqNWksbcj6YoYbesw1CzDPs6bdsT47SA5KhiAJE" />
 
-<!-- ADD THE SCHEMA MARKUP HERE - BEFORE THE CLOSING </head> TAG -->
+<!-- Enhanced Schema Markup -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Pablo Mileni Munari",
+  "alternateName": ["Pablo Mileni", "Pablo Mileni-Munari"],
   "jobTitle": "Macroeconomist, PhD Student",
   "description": "Macroeconomist with interests in labor and finance",
   "affiliation": {
@@ -35,7 +37,10 @@
   "alumniOf": {
     "@type": "Organization",
     "name": "Toulouse School of Economics"
-  }
+  },
+  "sameAs": [
+    "https://pablomileni.github.io"
+  ]
 }
 </script>
 
@@ -84,14 +89,12 @@ h5 {
   font-size: 60px;
 }
 
-
-  
 #navbar {
   overflow: hidden;
   background-color: white;
-  display: flex; /* Make the navbar a flex container */
-  justify-content: center; /* Center the navbar items horizontally */
-  width: 100%; /* Make the navbar full-width */
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 #navbar a {
@@ -107,13 +110,11 @@ h5 {
 #navbar a:hover {
   background-color: white;
   color: #0404aa;
-<!-- color: #000000 ; -->
 }
 
 #navbar a.active {
   background-color: white;
   color: #0404aa;
-<!--     color: #000000 ;-->
 }
 
 .content {
@@ -133,32 +134,31 @@ h5 {
 }
 
 .split-section {
-  display: flex; /* Use flexbox to create a flex container */
-  flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .left-column, .right-column {
-  flex: 1; /* Each column takes up half of the container */
-  justify-content: center; /* Center the navbar items horizontally */
+  flex: 1;
+  justify-content: center;
 }
 
 .left-column {
-  padding-right: 30px; /* Add padding between columns */ 
+  padding-right: 30px;
 }
 
 .right-column {
-  padding-left: 30px; /* Add padding between columns */
+  padding-left: 30px;
 }
 
 .hidden {
-display: none; /* Initially hide the paragraph */
+display: none;
 }
   
 .hidden-paragraph {
-    font-size: 16px; /* Adjust the font size as needed */
-    color: #333; /* Optional: change the color of the paragraph text */
+    font-size: 16px;
+    color: #333;
  }
-
 
 .toggle-link {
   font-size: 16px;
@@ -172,22 +172,22 @@ display: none; /* Initially hide the paragraph */
 }
   
 img{
-  max-width: 100%; /* Ensure the image doesn't exceed the container width */
+  max-width: 100%;
 }
 
 .responsive-image {
         display: block;
         width: 100%;
-        height: auto; /* Maintain aspect ratio */
-        max-width: 500px; /* Optional: maximum width */
+        height: auto;
+        max-width: 500px;
         margin-left: auto;
         margin-right: auto;
     }
 
 @media (max-width: 768px) {
   .left-column, .right-column {
-    flex-basis: 100%; /* Each column takes up full width */
-    padding: 0; /* Remove padding between columns */
+    flex-basis: 100%;
+    padding: 0;
   }
   .content {
   padding: 1 em;
@@ -200,7 +200,7 @@ img{
    
 <body>
 <div class="header">
-  <p>Pablo Mileni Munari</p>
+  <h1>Pablo Mileni Munari</h1>
 </div>
   
 <div id="navbar">
@@ -212,10 +212,10 @@ img{
 <div id="home" class="content">
 <section class="split-section">
   <div class="left-column">
-    <img src="pp1.jpg" class="responsive-image" alt=" ">
+    <img src="pp1.jpg" class="responsive-image" alt="Pablo Mileni Munari, macroeconomist and PhD student at Toulouse School of Economics">
   </div>
   <div class="right-column">
-    <p>I am a PhD student at the Toulouse School of Economics (TSE).</p>
+    <p>I am Pablo Mileni Munari, a PhD student at the Toulouse School of Economics (TSE).</p>
     <p>My research interests lie in macroeconomics, labor economics and finance.</p>
    
     <p> Here is my <a href="CV_Pablo_Mileni.pdf" target="_blank" style="color: black; font-weight: 500;">CV</a>. </p> 
@@ -231,7 +231,6 @@ img{
 
 <div id="research" class="content">
   <h1> Research </h1>
-  <!--<h2> Working papers</h2>-->
   <h4> <a href="papers/Bignon_Iaria_Lasio_2023.pdf" target="_blank" style="color: black;"> </a> The Impact of Automation of Firm and Wage Dynamics </a> <b style="font-weight: 600;">(Job Market Paper)</b></h4>
   <p><a href="#" class="toggle-link" data-target="abstract-2" style="text-decoration: none;">Abstract</a></p>
   <p id="abstract-2" class="hidden-paragraph" style="display: none;"> 
@@ -248,7 +247,7 @@ img{
   <h5> Joint with <a href="https://fredericboissay.com" target="_blank" style="color: black; font-weight: 550;"> Frederic Boissay</a> and <a href="http://fabcol.free.fr" target="_blank" style="color: black; font-weight: 550;"> Fabrice Collard</a>.</h5>
   <p><a href="#" class="toggle-link" data-target="abstract-3" style="text-decoration: none;">Abstract</a></p>
   <p id="abstract-3" class="hidden-paragraph" style="display: none;"> 
-    This paper studies the rationale, transmission channels, and joint impact of two of those reforms: banks’ liquidity and capital regulations. We do this through the lens of a general equilibrium model, in which those regulations alleviate frictions in interbank funding markets. In the model, bank capital and liquid assets play their usual dual role of aligning private incentives onto social interest ex ante (“skin in the game”) and lowering the aggregate cost of bank default ex post. In particular, by improving banks’ access to wholesale funding markets, minimum capital and liquidity requirements facilitate risk-sharing among heterogeneous banks. This insulates banks from idiosyncratic shocks, and makes the overall banking sector more resilient to aggregate shocks. When banks are regulated, interbank market runs (“crises” in our model) are less frequent. At the same time, though, banks’ cost of equity is higher, and there is less lending and activity. The regulator must therefore trade off financial stability against economic activity. Our general equilibrium approach unveils powerful feedback effects and synergies between banking regulations. For example, we find that, following a tightening in minimum capital requirements, banks’ wholesale funding constraints relax. As a result, the shadow — collateral — value of liquid assets decreases, which prompts banks to shed these assets. Even though this is privately optimal, the latter adjustment reduces the initial benefit of the regulatory tightening. Capital regulation is therefore more effective in aligning incentives when it is associated with a regulation that forces banks to keep a minimum amount of liquid assets on their balance sheet. We use our framework to analyse how these requirements should be coordinated to maximize welfare.  
+    This paper studies the rationale, transmission channels, and joint impact of two of those reforms: banks' liquidity and capital regulations. We do this through the lens of a general equilibrium model, in which those regulations alleviate frictions in interbank funding markets. In the model, bank capital and liquid assets play their usual dual role of aligning private incentives onto social interest ex ante ("skin in the game") and lowering the aggregate cost of bank default ex post. In particular, by improving banks' access to wholesale funding markets, minimum capital and liquidity requirements facilitate risk-sharing among heterogeneous banks. This insulates banks from idiosyncratic shocks, and makes the overall banking sector more resilient to aggregate shocks. When banks are regulated, interbank market runs ("crises" in our model) are less frequent. At the same time, though, banks' cost of equity is higher, and there is less lending and activity. The regulator must therefore trade off financial stability against economic activity. Our general equilibrium approach unveils powerful feedback effects and synergies between banking regulations. For example, we find that, following a tightening in minimum capital requirements, banks' wholesale funding constraints relax. As a result, the shadow — collateral — value of liquid assets decreases, which prompts banks to shed these assets. Even though this is privately optimal, the latter adjustment reduces the initial benefit of the regulatory tightening. Capital regulation is therefore more effective in aligning incentives when it is associated with a regulation that forces banks to keep a minimum amount of liquid assets on their balance sheet. We use our framework to analyse how these requirements should be coordinated to maximize welfare.  
   </p>
 
   <h4> <a href="papers/Bignon_Iaria_Lasio_2023.pdf" target="_blank" style="color: black;"> </a> The Informational Role of Stock Prices and the Macroeconomy </h4>
@@ -257,28 +256,7 @@ img{
   A theoretical and empirical literature in financial economics shows that stock prices provide useful information to firms which act under imperfect information. I take a macroeconomic perspective on the subject to study how an aggregate shock impacts the informativeness of stock prices and in turn affects the degree of input misallocation in the economy. I show that the interaction between the real and the financial side of the economy gives rise to an amplification mechanism. As firms grow in an expansion, their profits are more exposed to the realization of their fundamental. Speculators, which can acquire private information on it, will do more so as the rent they can extract is larger. The stock price becomes more informative about the fundamental, the informational friction is alleviated and output gets closer to the perfect information benchmark. The amplification mechanism is novel in that it links together input misallocation and the informational role of stock prices. 
   </p>
 
-  
-<!--<h2>Work in progress</h2> -->
-<!--  <h5> Biologic drugs and learning-by-doing</h5> <p>Joint with Pierre Dubois.</p> -->
-<!--  <h5 style="margin-bottom: 1em;"> The consequences of monitoring drug abuse: Physicians behavior towards secured prescription pads</h5> -->
-<!--  <p><a href="#" class="toggle-link" data-target="abstract-2" style="text-decoration: none;">Abstract</a></p> -->
-<!--   <p id="abstract-2" class="hidden-paragraph" style="display: none;"> -->
-<!--    This paper analyzes how insights from digital health data influence pharmaceutical markets. I focus on the impact of Continuous Glucose Monitors (CGMs) on insulin choice. I develop and estimate a tractable model of supply and demand for insulin embedding: (i) patient-specific learning about treatment performance through the digital device, (ii) physician-level learning about new drugs based on patient experiences and (iii) price bargaining by pharmaceutical companies and the regulator, both internalizing demand-side learning. Using French medical claims data, I find that CGMs provided patient-specific insights that steered device users toward newer insulins, with limited information spillovers to non-users. As these new criteria enter pharmaceutical demand, they alter the perceived product differentiation, and by doing so, I document how they can further affect the relative profitability of new drugs and shape future pharmaceutical innovations.-->
-  </p> 
-</div>
-
-<!--
-<div id="teaching" class="content">
-  <h3>.</h3>
-  <p>.</p>
-  <p>.</p>
-  <p>.</p>
-  <p>.</p>
-  <p>.</p>
-  <p>.</p>
-  <p>.</p>
-</div>
--->
+  </div>
   
 <script>
 window.onscroll = function() {myFunction()};
@@ -297,19 +275,15 @@ function myFunction() {
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    // Select all elements with the class 'toggle-link'
     const toggleLinks = document.querySelectorAll('.toggle-link');
     
-    // Iterate through each toggle link
     toggleLinks.forEach(function(link) {
       link.addEventListener('click', function(event) {
-        event.preventDefault(); // Prevent default link behavior
+        event.preventDefault();
         
-        // Get the target paragraph ID from the data-target attribute
         const targetId = link.getAttribute('data-target');
         const targetParagraph = document.getElementById(targetId);
         
-        // Toggle the display of the target paragraph
         if (targetParagraph.style.display === 'none') {
           targetParagraph.style.display = 'block';
           link.textContent = 'Hide Abstract';
@@ -321,54 +295,6 @@ function myFunction() {
     });
   });
 </script>
-
-<!-- 
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-        // JavaScript to handle toggle functionality
-        const toggleLink1 = document.getElementById('toggle-link1');
-        const hiddenParagraph1 = document.getElementById('hidden-paragraph1');
-    
-        hiddenParagraph1.style.display = 'none';
-    
-        toggleLink1.addEventListener('click', function(event) {
-        event.preventDefault(); // Prevent default link behavior
-
-            // Toggle hidden paragraph visibility
-            if (hiddenParagraph1.style.display === 'none') {
-                hiddenParagraph1.style.display = 'block';
-                toggleLink1.textContent = 'Hide Abstract';
-            } else {
-                hiddenParagraph1.style.display = 'none';
-                toggleLink1.textContent = 'Abstract';
-            }
-        });
-    });
-</script>
-    
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-        // JavaScript to handle toggle functionality
-        const toggleLink = document.getElementById('toggle-link');
-        const hiddenParagraph = document.getElementById('hidden-paragraph');
-    
-        hiddenParagraph.style.display = 'none';
-    
-        toggleLink.addEventListener('click', function(event) {
-        event.preventDefault(); // Prevent default link behavior
-
-            // Toggle hidden paragraph visibility
-            if (hiddenParagraph.style.display === 'none') {
-                hiddenParagraph.style.display = 'block';
-                toggleLink.textContent = 'Hide Abstract';
-            } else {
-                hiddenParagraph.style.display = 'none';
-                toggleLink.textContent = 'Abstract';
-            }
-        });
-    });
-</script>
--->
     
 </body>
 </html>
